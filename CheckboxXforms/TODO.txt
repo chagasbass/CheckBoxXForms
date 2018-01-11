@@ -1,0 +1,2 @@
+instalar o pacote xlabs.forms nos 3 projetos
+Inserir o namespace na view que será usado

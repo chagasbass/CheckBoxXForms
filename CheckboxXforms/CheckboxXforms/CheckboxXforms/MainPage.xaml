@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CheckboxXforms"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="CheckboxXforms.MainPage"
+             Padding="20">
+
+    <StackLayout>
+	<Label Text="Checkbox Xamarin forms" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+        <controls:CheckBox x:Name="cb1" DefaultText="Opção 1"  CheckedChanged="VerificarSelecao" HorizontalOptions="FillAndExpand"/>
+        <controls:CheckBox DefaultText="Opção 2" CheckedChanged="VerificarSelecao" HorizontalOptions="FillAndExpand"/>
+        <controls:CheckBox DefaultText="Opção 3" CheckedChanged="VerificarSelecao" HorizontalOptions="FillAndExpand"/>
+        <controls:CheckBox DefaultText="Opção 4" CheckedChanged="VerificarSelecao" HorizontalOptions="FillAndExpand"/>
+
+
+    </StackLayout>
+
+</ContentPage>
